@@ -20,7 +20,7 @@ for (int i=2;i<=n;i*2) {}
 	- Bellman–Ford Algorithm: Single-source shortest path (with negative weights)
 ---
 #### Optimal merge tree
-<img src="../BIN/Pasted image 20260206230314.png">
+<img src="./BIN/Pasted image 20260206230314.png">
 
 - Total record movements = sum of internal nodes = 44 + 94 + 65 + 159 = 362
 - Worst case no. of comparisons made while merging = sum of (m+n-1) for each
@@ -50,6 +50,6 @@ for (int i=2;i<=n;i*2) {}
 ### 0/1 Knapsack problem
 
 **Dynamic approach**
-<img src="../BIN/Pasted image 20260207160854.png">
+<img src="./BIN/Pasted image 20260207160854.png">
 
 **Greedy approach** -> take value by weight ratio

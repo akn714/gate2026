@@ -15,7 +15,7 @@ n -> total no. of attributes in a relation
 ### A canonical cover (𝐹𝑐) of a functional dependency (FD) set F is simplified, minimal, and equivalent set of dependencies, often called an "irreducible set".
 
 Extraneous attributes in a set of functional dependencies are attributes that can be removed from a dependency without changing the closure (meaning) of that set of dependencies.
-<img src="../BIN/Pasted image 20260207194820.png">
+<img src="./BIN/Pasted image 20260207194820.png">
 
 
 ---
@@ -25,12 +25,12 @@ Extraneous attributes in a set of functional dependencies are attributes that ca
 	- r-w
 	- w-r
 	- w-w
-<img src="../BIN/Pasted image 20260207230941.png">
+<img src="./BIN/Pasted image 20260207230941.png">
 
-<img src="../BIN/Pasted image 20260207234714.png">
+<img src="./BIN/Pasted image 20260207234714.png">
 
 
-<img src="../BIN/Pasted image 20260207235313.png">
+<img src="./BIN/Pasted image 20260207235313.png">
 
 ### Recall the rules
 

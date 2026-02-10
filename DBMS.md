@@ -78,27 +78,27 @@ If `StudentID` is primary key, then `Email` is an **alternate key**.
 - **Selection (σ)**: Filters rows (tuples) from a relation based on a given condition (predicate) (**selects rows**).
 - **Projection (π)**: Selects specific columns (attributes) from a relation, removing duplicates (**selects columns**).
 - **Union (∪)**: Combines rows from two compatible relations, removing duplicates. (schema of 2 tables should be same).
-<img src="../BIN/Pasted image 20260126230821.png">
+<img src="./BIN/Pasted image 20260126230821.png">
 - **Set difference (−)**: Returns rows present in the first relation but not in the second (must have same attributes/schema).
-<img src="../BIN/Pasted image 20260126230913.png">
+<img src="./BIN/Pasted image 20260126230913.png">
 - **Cartesian product (×)**: Combines every row from one relation with every row from another.
-<img src="../BIN/Pasted image 20260124014543.png">
+<img src="./BIN/Pasted image 20260124014543.png">
 #### Derived Operators
 - **Intersection (∩)**: Returns rows common to both relations.
-<img src="../BIN/Pasted image 20260126231127.png">
+<img src="./BIN/Pasted image 20260126231127.png">
 - **Rename (ρ)**: Renames attributes or relations.
 - **Division (÷)**: Finding rows in one relation that match _every_ row in another. (used for "for all" type queries)
-<img src="../BIN/Pasted image 20260124015032.png">
+<img src="./BIN/Pasted image 20260124015032.png">
 📌 **Division is used when query means**: "Find entities related to **all** entities in another set"
 
-<img src="../BIN/dbms operators.jpg">
+<img src="./BIN/dbms operators.jpg">
 
 ---
 ### Join (⨝)
 A **JOIN** is used to **combine rows from two or more tables** based on a **related column** between them (usually a primary key and a foreign key).
 [yt short for sql join](https://www.youtube.com/shorts/CQ52yLPTvIg)
 
-<img src="../BIN/Pasted image 20260126193604.png">
+<img src="./BIN/Pasted image 20260126193604.png">
 
 >No. of attributes in result = Deg(table1) + Deg(table2)
 >Degree (Deg): The degree of a table (or relation) refers to the total number >of attributes (columns) it contain.
@@ -214,7 +214,7 @@ HAVING AVG(salary) > 50000;
 SELECT dept, COUNT(*) FROM Employee GROUP BY dept;
 ```
 
-<img src="../BIN/Pasted image 20260127010950.png">
+<img src="./BIN/Pasted image 20260127010950.png">
 
 ##### ORDER BY Clause
 - Used to **sort the result set**.

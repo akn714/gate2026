@@ -45,7 +45,7 @@ then, c will not overflow if it has n+1 bits
 #### Question:
 If any no. is multiplies by binary no. then just add 0's at last of binary representation
 **Answer:**
-<img src="../BIN/Pasted image 20260204025107.png">
+<img src="./BIN/Pasted image 20260204025107.png">
 
 ---
 ## Sequential Circuit
