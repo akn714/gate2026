@@ -35,8 +35,8 @@
 	- It is less efficient with large graphs due to memory and time
 	- It doesn't work on negative (-ve) edges
 	- **completeness**: complete and optimal
-	<img src="./BIN/Pasted image 20260211190234.png">
-	<img src="./BIN/Pasted image 20260211184116.png">
+	![[Pasted image 20260211190234.png]]
+	![[Pasted image 20260211184116.png]]
 
 #### Informed search
 **Heuristic Function: h(n):**
@@ -68,7 +68,7 @@ FALSE: If Admissible then consistent
 	- **Disadvantage**: Can lead to suboptimal paths as it ignores the actual cost to reach nodes.
 	- time complexity: **O(b^d)**
 	- space complexity: **O(b^d)**
-	<img src="./BIN/Pasted image 20260211190525.png">
+	![[Pasted image 20260211190525.png]]
 
 - A* Search Algorithm
 	- select the node with lowest value of function.
@@ -110,14 +110,14 @@ FALSE: If Admissible then consistent
 	- MinMax algo:
 		- player 1: minimize result / cost
 		- player 2: maximize result / cost
-		<img src="./BIN/Pasted image 20260211234950.png">
+		![[Pasted image 20260211234950.png]]
 	- Alpha-Beta Pruning
 		- alpha -> max
 		- beta -> min
-		<img src="./BIN/Pasted image 20260212001131.png">
+		![[Pasted image 20260212001131.png]]
 
 ---
-#### Proposition Logic
+### Proposition Logic
 
 - conjunction -> AND
 - disjunction -> OR
@@ -144,9 +144,28 @@ Satisfiable -> at least one time True
 - A -> B is logical implication if and only if A -> B is tautology (always true)
 ##### Logically Equivalence
 - A <-> B is logically equivalence if and only if A <-> B is tautology (always true)
-<img src="./BIN/Pasted image 20260212003405.png">
+![[Pasted image 20260212003405.png]]
 - The above image is of de morgan's law
 
 ##### Argument
 - Argument is valid if conditions where premise are true, conclusion has to true
-<img src="./BIN/Pasted image 20260212004547.png">
+![[Pasted image 20260212004547.png]]
+
+| statement            | forms          |
+| -------------------- | -------------- |
+| Original implication | P -> Q         |
+| Converse             | Q -> P         |
+| Inverse              | not P -> not Q |
+| Contrapositive       | not Q -> not P |
+
+---
+
+### Predicate Logic
+![[Pasted image 20260212121214.png]]
+
+#### Bayesian Network
+- chain
+- frok
+- colloidal
+- dependent
+- 
