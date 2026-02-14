@@ -32,7 +32,7 @@ Ensures that a non-serial schedule produces the same result as some serial sched
 		- r-w
 		- w-r
 		- w-w
-	![[Pasted image 20260207230941.png]]
+	<img src="./BIN/Pasted image 20260207230941.png">
 2. **View Serializability**
     - Based on read-from and final write relationships.
     - More general but harder to test.

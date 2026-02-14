@@ -1,6 +1,6 @@
 
 ### Operator Precedence
-![[Pasted image 20260213162918.png]]
+<img src="./BIN/Pasted image 20260213162918.png">
 
 ##### //
 ```python
@@ -33,25 +33,25 @@ Python is dynamically typed language.
 	- immutable
 	- slicing `a[0:3]`, `a[0:5:2]` (0 is included, 3 and 5 are excluded)
 	- `a[::-1]` -> string in reverse order
-	![[Pasted image 20260213165640.png]]
-- **List**
+	<img src="./BIN/Pasted image 20260213165640.png">
+- **List []**
 	- mutable
 	- ordered
 	- slicing
 	- `append(values`, `extend(iteratable)`, `insert(index, value)`
-	![[Pasted image 20260213200543.png]]
-- **Tuple** - (1,2,4) (set)
+	<img src="./BIN/Pasted image 20260213200543.png">
+- **Tuple ()** - (1,2,4)
 	- ordered, immutable, indexing, slicing
 	- Duplicate values allowed
 	- Heterogeneous - (strings, integers, floats, etc.)
-- **Set**
+- **Set {}**
 	- No duplicate
 	- mutable
 	- unordered
 	- set can have only immutable values
 - **Frozen set**
 	- same as set but it is immutable
-- **Dictionary**
+- **Dictionary {}**
 	- mutable
 	- keys should be unique
 	- `d.keys()` -> return only keys
@@ -79,7 +79,7 @@ e = copy.copy()
 # deep copy
 f = copy.deepcopy()
 ```
-![[Pasted image 20260213192020.png]]
+<img src="./BIN/Pasted image 20260213192020.png">
 
 ### Functions
 - default values are initialized only once, after that same values is used

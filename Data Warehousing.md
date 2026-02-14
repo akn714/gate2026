@@ -1,5 +1,5 @@
 
-![[Pasted image 20260212194719.png]]
+<img src="./BIN/Pasted image 20260212194719.png">
 
 #### ETL (Extract, Transform, Load)
 - Three-phase process where data is extracted, transformed and loaded into an output data container.
@@ -59,7 +59,7 @@
 4. Data Discretization (make data discontinues, histogram)
 5. Data Generalization (replace values with general values)
 6. Data Normalization
-![[Pasted image 20260212223632.png]]
+<img src="./BIN/Pasted image 20260212223632.png">
 
 #### Sampling
 The data-analysis practice of analyzing a subset of data in order to uncover meaningful information from a large dataset.
@@ -79,8 +79,8 @@ gropu by rollup(country, state, city)
 ```
 
 #### Window Function
-![[Pasted image 20260212230942.png]]
+<img src="./BIN/Pasted image 20260212230942.png">
 
 #### Ranking Window function
-![[Pasted image 20260212231033.png]]
+<img src="./BIN/Pasted image 20260212231033.png">
 

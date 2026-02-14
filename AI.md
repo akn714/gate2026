@@ -35,12 +35,12 @@
 	- It is less efficient with large graphs due to memory and time
 	- It doesn't work on negative (-ve) edges
 	- **completeness**: complete and optimal
-	![[Pasted image 20260211190234.png]]
-	![[Pasted image 20260211184116.png]]
+	<img src="./BIN/Pasted image 20260211190234.png">
+	<img src="./BIN/Pasted image 20260211184116.png">
 
 #### Informed search
 **Heuristic Function: h(n):**
-- It is a function that estimates the cost of the cheapest path from a node n to the goal.
+- It is a function that estimates the cost of the cheapest path from a node n to the goal. 
 - The quality of the heuristic greatly influences the efficiency of the search.
 - A good heuristic should be **admissible and consistent/monotonic**
 ```
@@ -68,7 +68,7 @@ FALSE: If Admissible then consistent
 	- **Disadvantage**: Can lead to suboptimal paths as it ignores the actual cost to reach nodes.
 	- time complexity: **O(b^d)**
 	- space complexity: **O(b^d)**
-	![[Pasted image 20260211190525.png]]
+	<img src="./BIN/Pasted image 20260211190525.png">
 
 - A* Search Algorithm
 	- select the node with lowest value of function.
@@ -110,11 +110,11 @@ FALSE: If Admissible then consistent
 	- MinMax algo:
 		- player 1: minimize result / cost
 		- player 2: maximize result / cost
-		![[Pasted image 20260211234950.png]]
+		<img src="./BIN/Pasted image 20260211234950.png">
 	- Alpha-Beta Pruning
 		- alpha -> max
 		- beta -> min
-		![[Pasted image 20260212001131.png]]
+		<img src="./BIN/Pasted image 20260212001131.png">
 
 ---
 ### Proposition Logic
@@ -144,12 +144,12 @@ Satisfiable -> at least one time True
 - A -> B is logical implication if and only if A -> B is tautology (always true)
 ##### Logically Equivalence
 - A <-> B is logically equivalence if and only if A <-> B is tautology (always true)
-![[Pasted image 20260212003405.png]]
+<img src="./BIN/Pasted image 20260212003405.png">
 - The above image is of de morgan's law
 
 ##### Argument
 - Argument is valid if conditions where premise are true, conclusion has to true
-![[Pasted image 20260212004547.png]]
+<img src="./BIN/Pasted image 20260212004547.png">
 
 | statement            | forms          |
 | -------------------- | -------------- |
@@ -161,11 +161,42 @@ Satisfiable -> at least one time True
 ---
 
 ### Predicate Logic
-![[Pasted image 20260212121214.png]]
+<img src="./BIN/Pasted image 20260212121214.png">
 
 #### Bayesian Network
 - chain
+	- A → B → C
+	- A ⟂ C | B
+	- A and C become independent if B is known
+	- P(A,C | B) = P(A|B) x P(C|B)
 - frok
+	- B ⟂ C | A  
+	- Given A, B and C become independent
+	- P(B,C | A) = P(A|B) x P(C|B)
+	```
+     A
+    / \
+   B   C
+	```
 - colloidal
-- dependent
-- 
+	- If A is observed → B and C become dependent
+	- B and C are marginal independent
+	- P(B, A) = P(B) x P(A)   
+```
+   B   C
+    \ /
+     A
+```
+
+<img src="./BIN/Pasted image 20260214141102.png">
+
+
+---
+## PYQs
+
+**Bayes Network** (below is solved using sampling method)
+<img src="./BIN/Pasted image 20260214135954.png">
+
+**Rejection Sampling in Bayesian Network**
+<img src="./BIN/Pasted image 20260214162650.png">
+
